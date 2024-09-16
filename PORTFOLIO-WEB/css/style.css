@@ -1,0 +1,431 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primery: #060548;
+    --secondery: #FFA902;
+    --discription: #9191b1;
+    --heading: #060548;
+    --white: #ffffff;
+}
+.BG{
+    position: sticky;    
+    background-image: url("../img/bfg_fluid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    background-attachment: fixed;
+}
+.dics{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    width: 205px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Dosis';
+    color: var(--discription);
+    display: none; 
+}
+.btn-btn{
+    color: var(--primery);
+    background-color: var(--secondery);
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: none;
+    transition: 0.5s;
+    box-shadow: none;
+    text-decoration: none;
+}
+.btn-btn:hover{
+    color: var(--secondery);
+    background-color: var(--primery);
+    box-shadow: 0 0 10px  var(--secondery);
+
+}
+
+/* HEADER */
+
+header{
+    background-color: transparent;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.nav-link{
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: #FFA902 !important;
+    text-shadow: 0 0 10px var(--secondery);
+    border-radius: 10%;
+}
+header img{
+    width: 150px;
+}
+
+/* BANNER */
+
+.banner{
+    padding-top: 100px;
+}
+.banner-info{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+.banner-img img{
+    width: 400px;
+}
+.banner-data{ 
+    font-size: 16px;
+    color: var(--discription);
+    font-family: 'Dosis';
+    font-weight: 600; 
+    text-shadow: 0 0 10px var(--primery);
+}
+.banner-data h1{
+    color: var(--white);
+    font-family: 'Signika';
+    display: inline-block;
+    align-items: end;
+} 
+.hi_icon{
+    display: flex;
+    align-items: end;
+}
+.hi_icon img{
+    width: 50px;
+    display: inline-block;
+}
+
+/* About */
+
+.About{
+    width: 100%;
+    background: var(--primery);
+    padding: 50px;
+    /* background-attachment: fixed; */
+}
+.About .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.About-title h1{
+      font-size: 42px;
+      width: 555px;
+      height: 100px;
+      font-weight: 600;
+      text-shadow: 0 0 10px var(--primery);
+      color: var(--secondery);
+      font-family: 'Signika';
+      display: inline;
+}
+.About-title img{
+    width: 70px;
+}
+.About-dics p{
+    font-size: 16px;
+    color: var(--discription);
+    font-family: 'Dosis';
+    font-weight: 600;  
+    padding-top: 30px;
+    text-shadow: 0 0 10px var(--primery);
+}
+.social_media p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Dosis';
+    color: var(--secondery);
+}
+.About-part-1{
+
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.About-2{
+    display: flex;
+    margin-top: 50px;
+}
+.Abouts-2 .row{
+     display: flex;
+}
+.About-box-1 {
+    margin-top: 50px;
+}
+.About-box-2{
+    margin-left: 25px;
+}
+.About-info{
+      width: 265px;
+      height: 168px;
+     border-radius: 15px;
+      background-color: var(--secondery);
+      padding: 30px;
+      margin-bottom: 25px;
+      transition: all 0.3s;
+}
+.About-info:hover{
+     transform: translateY(-8px);
+     box-shadow: 0 0 10px var(--secondery);
+     background-color: var(--primery);
+     color: var(--secondery);
+     text-shadow: 0 0 20px var(--secondery);
+}
+.About-info:hover p{
+    display: block
+}
+.About-info h1{
+      width: 205px;
+      height: 47px;  
+      font-size: 34px;
+      color: var(--primery);
+      font-family: 'Signika';
+      font-weight: 600;
+      text-align: center;
+
+}
+
+
+/* Skills */
+
+.Skills{
+   padding: 50px;
+    background-image: url("../img/bfg_fluid.jpg");
+   position: sticky;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   transition: 1s;
+
+}
+.skill-heading h1{
+    font-family: 'Signika';
+    font-weight: 600;
+    color: var(--secondery);
+}
+.skill-card {
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+}
+.skill-card:hover{ 
+    transform: translateY(-8px);
+    box-shadow: 0 0 10px var(--secondery);
+    background-color: var(--secondery);
+    color: var(--primery);
+    text-shadow: 0 0 20px var(--secondery);
+}
+.skill-card h3{
+    text-align: center !important;
+    font-family: 'Signika' !important;
+    font-weight: 600 !important;
+}
+.me{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.dart{
+    width: 200px;
+}
+
+/* PROJECTS */
+.Projects{
+    padding: 50px; 
+    background-color: var(--primery);
+    padding-bottom: 100px;
+}
+.project-count{
+    text-align: center;
+}
+.pg-card{
+    border-radius: 15px;
+    border: 2px solid var(--white);
+    padding: 25px;
+    box-shadow: 10px 10px 20px var(--secondery);
+    transition: 0.5s;
+}
+.pg-card:hover p{
+    color: var(--primery);
+}
+.pg-card:hover h3{
+    color: var(--primery);
+}
+.pg-card:hover{
+    box-shadow: none;
+    transform: translate(-5px);
+    color: var(--primery);
+    background-color: #FFA902;
+}
+.project-heading h1{
+    font-family: 'Signika';
+    font-weight: 600;
+    color: var(--secondery);
+    margin-bottom: 50px;
+}
+.first{
+}
+.second{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.first h3{
+    font-family: 'Signika';
+    font-weight: 600;
+    color: var(--secondery);
+}
+.second h3{
+    font-family: 'Signika';
+    font-weight: 600;
+    color: var(--secondery);
+}
+.third h3{
+    font-family: 'Signika';
+    font-weight: 600;
+    color: var(--secondery);
+}
+.first img{
+      width: 300px;
+      height: 162px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+.second img{
+      width: 300px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+.third img{
+      width: 300px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+.first p{
+    font-size: 16px;
+    color: var(--discription);
+    font-family: 'Dosis';
+    font-weight: 600;  
+    text-shadow: 0 0 10px var(--primery);
+}
+.second p{
+    font-size: 16px;
+    color: var(--discription);
+    font-family: 'Dosis';
+    font-weight: 600;  
+    text-shadow: 0 0 10px var(--primery);
+}
+.third p{
+    font-size: 16px;
+    color: var(--discription);
+    font-family: 'Dosis';
+    font-weight: 600;
+    text-shadow: 0 0 10px var(--primery);
+}
+
+
+/* CONTACT */
+.contact{
+    position: sticky;    
+    background-image: url("../img/bfg_fluid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    background-attachment: fixed;
+}
+form input{
+    width: 500px !important;
+    border: 2px solid var(--secondery) !important;
+    color: var(--white) !important;
+    background-color: transparent !important;
+    backdrop-filter: blur(20px) !important;
+    box-shadow: 0 0 10px var(--white);
+    transition: 0.5s ease-in-out !important;
+}
+form input:hover{
+    background-color: var(--secondery) !important;
+    box-shadow: none;
+    color: var(--primery) !important;
+}
+form label{
+    font-size: 16px;
+    color: var(--discription);
+    font-family: 'Dosis';
+    font-weight: 600;  
+    text-shadow: 0 0 10px var(--primery);
+}
+textarea{
+    border: 2px solid var(--secondery) !important;
+    color: var(--white) !important;
+    background-color: transparent !important;
+    backdrop-filter: blur(20px) !important;
+    box-shadow: 0 0 10px var(--white);
+    transition: 0.5s ease-in-out !important; 
+}
+textarea:hover{
+    background-color: var(--secondery) !important;
+    box-shadow: none;
+    color: var(--primery) !important;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 50px;
+    background-color: var(--primery);
+}
+
+footer h6{
+    font-family: 'Signika';
+    font-weight: 600;
+    color: var(--secondery);
+}
+footer p{
+    font-size: 16px;
+    color: var(--white);
+    font-family: 'Dosis';
+    font-weight: 600;
+    text-shadow: 0 0 10px var(--primery);
+    border-radius: 5px;
+    padding: 5px;
+}
+footer a{
+    font-size: 16px;
+    color: var(--white) !important;
+    font-family: 'Dosis';
+    font-weight: 600;
+    text-shadow: 0 0 10px var(--primery);
+    border-radius: 5px;
+    padding: 5px;
+}
+footer p:hover {
+    color: var(--primery) !important;
+    background-color: var(--secondery) !important;
+}
+footer a:hover {
+    color: var(--primery) !important;
+    background-color: var(--secondery) !important;
+}
+
+
+
+
