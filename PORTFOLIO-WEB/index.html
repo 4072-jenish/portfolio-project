@@ -22,7 +22,7 @@
         </a>
    
     
-    <button  class="navbar-toggler" data-bs-target="#header" data-bs-toggle="collapse"><i class="bi bi-list"></i></button>
+    <button   class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header" aria-controls="navbarToggleExternalContent" aria-expanded="false"><i class="bi bi-three-dots-vertical menu-btn"></i></button>
 
     <nav class="navbar-collapse collapse flex-lg-grow-0 " id="header">   
         <ul class="navbar-nav">
@@ -46,12 +46,12 @@
 <section class="banner pb-5">
     <div class="container">
       <div class="row banner-info"> 
-        <div class="col-7">
+        <div class="col-12 col-lg-6">
         <div class="banner-img">
           <img src="img/waving-287_512.gif" title="banner" alt="banner" class="img-fluid" >
         </div>
        </div>
-       <div class="col-5">
+       <div class="mt-5 mt-lg-0 col-12 col-lg-5">
             <div class="banner-info">
                 <div class="banner-data">
                     <div class="hi_icon"><img src="img/waving-hand.png" title="hi" alt="hi">
@@ -60,10 +60,6 @@
                    <p class="my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore aliquid quod aut, hic esse iusto voluptate nulla rem id adipisci quibusdam, quia itaque reiciendis natus suscipit excepturi sed culpa officia velit nesciunt.
                    </p>
                   </div>
-                 <div class="banner-btn d-flex mt-4">
-                  <button class="btn-btn">Dawnload Resume</button>
-                  <button class="btn-btn ms-4">Cantect US</button>
-                 </div>
             </div>
            </div>
        </div>
@@ -78,7 +74,7 @@
   <div class="container">
       <div class="row">
 
-          <div class="col-4">
+          <div class="col-12 col-lg-4 mb-5 mb-lg-0">
               <div class="About-part-1">
                 <div class="About-title">
                     <img src="img/smaile_emoji.png" title="smile" alt="smile">
@@ -99,9 +95,9 @@
           </div>
                  
 
-          <div class="col-6">
-              <div class="About-2">
-                  <div class="About-box-1">
+          <div class="col-12 col-lg-6">
+              <div class="About-2 row">
+                  <div class="About-box-1 col-12 col-md-6">
                       <div class="About-info">
                           <h1>Name:</h1>
                           <p class="dics">Jenish hariyani</p>
@@ -114,7 +110,7 @@
                       </div>
                   </div>
 
-                  <div class="About-box-2">
+                  <div class="About-box-2 col-12 col-md-6">
                       <div class="About-info">
                           <h1>Email:</h1>
                           <p class="dics">hariyanijenish@gmail.com
@@ -143,43 +139,39 @@
              <h1> I learned taht languages and frame works :</h1>
              <p></p>
         </div>
-       <div class="row">
-        <div class="skill-card mt-5 col-3 me py-3">
-            <h3>HTML 5</h3>
-            <img src="img/html-5 (1).png" title="html-5" alt="html-5" class="img-fluid my-3">
-            <p></p>
-            <a class="btn-btn">Know more</a>
-        </div>
-        <div class="skill-card mt-5 col-3  py-3">
-            <h3>CSS</h3>
-            <img src="img/css (1).png" title="css" alt="css" class="img-fluid my-3">
-            <p></p>
-            <a class="btn-btn">Know more</a>
-        </div>
-        <div class="skill-card mt-5 col-3 me py-3">
-            <h3>BOOTSTAP</h3>
-            <img src="img/bootstrap.png" title="bootstrap" alt="bootstrap" class=" my-3">
-            <p></p>
-            <a class="btn-btn">Know more</a>
-        </div>
-        <div class="skill-card mt-5 col-3 me py-3">
-            <h3>C_lang</h3>
-            <img src="img/c.png" title="c++-language" alt="c++-language" class=" my-3">
-            <p></p>
-            <a class="btn-btn">Know more</a>
-        </div>
-        <div class="skill-card mt-5 col-3  py-3">
-            <h3>C++</h3>
-            <img src="img/c-logo.png" title="c-language" alt="c-language" class="my-3">
-            <p></p>
-            <a class="btn-btn">Know more</a>
-        </div>
-        <div class="skill-card mt-5 col-3 me py-3">
-            <h3>Dart</h3>
-            <img src="img/dart.png" title="dart" alt="dart" class="img-fluid dart my-3">
-            <p></p>
-            <a class="btn-btn">Know more</a>
-        </div>
+          <div class="skill-row-first row">
+            <div class="skill-card mx-0 mx-lg-4 py-3 col-12 col-md-6 col-lg-3">
+                <h3>HTML 5</h3>
+                <img src="img/html-5 (1).png" title="html-5" alt="html-5" class="img-fluid my-3">
+                <p></p>
+                <a class="btn-btn">Know more</a>
+            </div>
+            <div class="skill-card mx-0 mx-lg-4 py-3 col-12 col-md-6 col-lg-3">
+                <h3>CSS</h3>
+                <img src="img/css (1).png" title="css" alt="css" class="img-fluid my-3">
+                <p></p>
+                <a class="btn-btn">Know more</a>
+            </div>
+            <div class="skill-card mx-0 mx-lg-4 py-3 col-12 col-md-6 col-lg-3">
+                <h3>BOOTSTAP</h3>
+                <img src="img/bootstrap.png" title="bootstrap" alt="bootstrap" class=" my-3">
+                <p></p>
+                <a class="btn-btn">Know more</a>
+            </div>
+          </div>
+        <div class="skill-row-second row">
+            <div class="skill-card mx-0 mx-lg-4 py-3 col-12 col-md-6 col-lg-3">
+                <h3>C_lang</h3>
+                <img src="img/c.png" title="c++-language" alt="c++-language" class=" my-3">
+                <p></p>
+                <a class="btn-btn">Know more</a>
+            </div>
+            <div class="skill-card mx-0 mx-lg-4 py-3 col-12 col-md-6 col-lg-3">
+                <h3>C++</h3>
+                <img src="img/c-logo.png" title="c-language" alt="c-language" class="my-3">
+                <p></p>
+                <a class="btn-btn">Know more</a>
+            </div>
        </div>
     </div>
 </section>
@@ -193,23 +185,23 @@
             </div>
         </div>
             <div class="project-count row">
-            <div class="col-3 pg-card first">
+            <div class="pg-card mb-5 mb-lg-0 first col-12 col-md-6 col-lg-4">
                 <h3>My first project:</h3>
                 <img src="img/project-1.png" alt="" class="img-fluid">
                 <p>This project is made with html and css use only</p>
-                <a href="" alt="" class="btn-btn">see Project</a>
+                <a href="" alt="" class="btn-btn">see project</a>
             </div>
-            <div class="col-3 pg-card second">
+            <div class="pg-card mb-5 mb-lg-0 second mx-0 mx-lg- col-12 col-md-6 col-lg-4">
                 <h3>My Second project:</h3>
                 <img src="img/project-2.png" alt="" class="img-fluid">
                 <p>This project is made with bootstrap,html and cs</p>
-                <a href="" alt="" class="btn-btn">see Project</a>
+                <a href="" alt="" class="btn-btn">see project</a>
             </div>
-            <div class="col-3 pg-card third">
+            <div class="pg-card mb-5 mb-lg-0 third col-12 col-md-6 col-lg-4">
                 <h3>This is my portfolio:</h3>
                 <img src="img/project-3.png" alt="" class="img-fluid">
                 <p> portfolio is made with css, html, bootstrap</p>
-                <a href="" alt="" class="btn-btn">see Project</a>
+                <a href="" alt="" class="btn-btn">see project</a>
             </div>
           </div>
     </div>
@@ -218,31 +210,32 @@
 <!-- CONTACT -->
  <div class="contact">
     <div class="container">
-        <div class="map mb-5">
+     <div class="row">
+        <div class="map mb-5 col-12 col-lg-6">
             <div class="col-12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1141.6706874530892!2d72.98718701743408!3d21.2674532336256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e1!3m2!1sen!2sjp!4v1726497950549!5m2!1sen!2sjp" width="100%" height="450" style="border-radius: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <div class="contact-form">
+        <div class="contact-form col-12 col-lg-6">
             <form>
-                <div class="mb-3 row">
-                  <div class="first-name col-6">
+                <div class="mb-3">
+                  <div class="first-name col-12">
                     <label for="exampleInputEmail1" class="form-label">First name...</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
-                  <div class="second-name col-6">
+                  <div class="second-name col-12">
                     <label for="exampleInputEmail1" class="form-label">Last name...</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
-                  <div class="email col-6">
+                  <div class="email col-12">
                     <label for="exampleInputEmail1" class="form-label">Email...</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
-                  <div class="Phone col-6">
+                  <div class="Phone col-12">
                     <label for="exampleInputEmail1" class="form-label">Phone...</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
-                  <div class="Adress col-6">
+                  <div class="Adress col-12">
                     <label for="exampleInputEmail1" class="form-label">Adress...</label>
                     <textarea type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
@@ -254,6 +247,7 @@
                 <button type="submit" class="btn-btn col-3">Submit</button>
               </form>
         </div>
+     </div>
     </div>
  </div>
 
@@ -331,7 +325,7 @@
   </footer>
   
 
-<script src="js/bootstrap.bundle.min.js"></script>
+  <script rel="stylesheet"  type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
